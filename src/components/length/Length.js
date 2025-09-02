@@ -12,7 +12,8 @@ class Length extends React.Component
     {
         this.setState({length: this.state.length += 10});
     }
-    reset = () => {
+    reset = () => 
+    {
         this.setState({length:10});
     }
 
